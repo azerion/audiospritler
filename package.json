@@ -1,42 +1,46 @@
 {
-  "name": "audiosprite",
-  "description": "Concat small audio files into single file and export in many formats.",
-  "keywords": [
-    "audio",
-    "audio-sprite",
-    "jukebox",
-    "ffmpeg"
-  ],
-  "author": "Tõnis Tiigi <tonistiigi@gmail.com>",
-  "version": "0.2.1",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/github.com/tonistiigi/audiosprite/raw/master/LICENSE"
+    "name": "audiospritler",
+    "description": "Concat small audio files into single file and export in many formats for use with Howler.js.",
+    "keywords": [
+        "audio",
+        "audio-sprite",
+        "howler",
+        "ffmpeg"
+    ],
+    "author": "Keesing Games",
+    "version": "0.1.0",
+    "contributors": [
+        {"name": "Tõnis Tiigi", "email": "tonistiigi@gmail.com"} ,
+        {"name": "Ale Bles", "email": "a.bles@keesing.com"}
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/keesinggames/audiospritler/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/keesinggames/audiospritler.git"
+    },
+    "main": "./audiospritler.js",
+    "bin": {
+        "audiospritler": "./audiospritler.js"
+    },
+    "dependencies": {
+        "optimist": "~0.6.0",
+        "winston": "~0.7.2",
+        "underscore": "~1.5.2",
+        "async": "~0.2.9"
+    },
+    "devDependencies": {
+        "mocha": "~1.13.2"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "optionalDependencies": {},
+    "scripts": {
+        "test": "mocha"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tonistiigi/audiosprite.git"
-  },
-  "main": "./audiosprite.js",
-  "bin": {
-    "audiosprite": "./audiosprite.js"
-  },
-  "dependencies": {
-    "optimist": "~0.3.4",
-    "winston": "~0.6.2",
-    "underscore": "~1.3.3",
-    "async": "~0.1.22"
-  },
-  "devDependencies": {
-    "mocha": "~1.4.2"
-  },
-  "engines": {
-    "node": ">=0.8"
-  },
-  "optionalDependencies": {},
-  "scripts": {
-    "test": "mocha"
-  }
 }
