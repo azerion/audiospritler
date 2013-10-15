@@ -24,8 +24,8 @@ npm install -g audiospritler
 ###Usage
 
 ```
-> audiosprite --help
-info: Usage: audiosprite [options] file1.mp3 file2.mp3 *.wav
+> audiospritler --help
+info: Usage: audiospritler [options] file1.mp3 file2.mp3 *.wav
 info: Options:
   --output, -o      Name for the output file.                                    [default: "output"]
   --export, -e      Limit exported file types. Comma separated extension list.   [default: ""]
@@ -38,7 +38,7 @@ info: Options:
   --help, -h        Show this help message.
 
 
-> audiosprite --output mygameaudio bg_loop.wav *.mp3
+> audiospritler --output mygameaudio bg_loop.wav *.mp3
 info: File added OK file=bg_loop.wav
 info: 1.25s silence gap added OK
 info: File added OK file=click.mp3
