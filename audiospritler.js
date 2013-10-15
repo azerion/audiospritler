@@ -149,7 +149,7 @@ function appendFile(name, src, dest, cb) {
     reader.on('end', function () {
         var duration = size / SAMPLE_RATE / NUM_CHANNELS / 2;
         winston.info('File added OK', { file: src, duration: duration });
-        json.sprite[name] = [offsetCursor * 1000, Math.round((offsetCursor + duration) * 1000)];
+        json.sprite[name] = [offsetCursor * 1000, Math.round((duration) * 1000)];
         offsetCursor += duration;
         appendSilence(Math.ceil(duration) - duration + 1, dest, cb);
     });
