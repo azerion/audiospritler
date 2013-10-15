@@ -87,12 +87,12 @@ describe('audiospritler', function () {
 
             assert.ok(json.sprite.beep, 'beep not found in sprite');
             assert.equal(json.sprite.beep[0], 0, 'beep start time not 0');
-            assert.ok(Math.abs(1770 - json.sprite.beep[1]) < 40, 'beep end time not 1.77');
+            assert.ok(Math.abs(1751 - json.sprite.beep[1]) < 40, 'beep end time not 1.77');
             assert.equal(json.sprite.beep[2], undefined, 'beep should not be looping');
 
             assert.ok(json.sprite.boop, 'boop not found in sprite');
             assert.equal(json.sprite.boop[0], 3000, 'boop start time not 3');
-            assert.ok(Math.abs(4270 - json.sprite.boop[1]) < 40, 'boop end time not 4.27');
+            assert.ok(Math.abs(1270 - json.sprite.boop[1]) < 40, 'boop end time not 4.27');
             assert.equal(json.sprite.boop[2], undefined, 'boop should not be looping');
 
             assert.equal(json.autoplay, 'boop', 'boop is not set as autoplay');
