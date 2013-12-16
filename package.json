@@ -16,12 +16,12 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/keesinggames/audiospritler/raw/master/LICENSE"
+            "url": "https://github.com/gembly/audiospritler/raw/master/LICENSE"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/keesinggames/audiospritler.git"
+        "url": "git://github.com/gembly/audiospritler.git"
     },
     "main": "./audiospritler.js",
     "bin": {
