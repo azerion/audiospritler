@@ -7,8 +7,8 @@
         "howler",
         "ffmpeg"
     ],
-    "author": "Keesing Games",
-    "version": "0.1.2",
+    "author": "Gembly",
+    "version": "0.1.3",
     "contributors": [
         {"name": "Tõnis Tiigi", "email": "tonistiigi@gmail.com"} ,
         {"name": "Ale Bles", "email": "ale@gembly.com"}
