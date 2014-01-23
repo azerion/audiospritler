@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/keesinggames/audiospritler.png)](http://travis-ci.org/keesinggames/audiospritler)
+[![Build Status](https://secure.travis-ci.org/gembly/audiospritler.png)](http://travis-ci.org/gembly/audiospritler)
 
 ### What?
 
